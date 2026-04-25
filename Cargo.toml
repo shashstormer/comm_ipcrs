@@ -1,0 +1,19 @@
+[package]
+name = "commipcrs"
+version = "0.0.1"
+edition = "2024"
+license = "LGPL-3.0"
+readme = "README.md"
+description = "High-performance Rust client for the CommIPC protocol over Unix domain sockets"
+repository = "https://github.com/shashstormer/comm_ipcrs"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+rmp-serde = "1.3"
+uuid = { version = "1.3", features = ["v4"] }
+async-trait = "0.1"
+log = "0.4"
+hex = "0.4"
+pbkdf2 = { version = "0.13", features = ["hmac", "sha2"] }
