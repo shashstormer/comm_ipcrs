@@ -1,9 +1,3 @@
-This project supports only hyprland 0.52 with no plans for future support.
-
-you can use https://github.com/shashstormer/arch-board which supports 0.53 and 0.54 (as it supports the .conf format with no significant changes) and whatever version supports .conf format 0.52+
-
-But that project also does not have any planned .lua config support at the moment.
-
 # CommIPC-RS
 
 A high-performance Rust client for the `comm_ipc` protocol, providing seamless inter-process communication via Unix domain sockets. This library is designed to be fully compatible with the Python implementation of `comm_ipc`.
